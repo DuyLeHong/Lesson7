@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity3_sqlite.xml" value="0.19746376811594202" />
         <entry key="app/src/main/res/layout/activity_activity2_internal_storage.xml" value="0.19746376811594202" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/item_list_student.xml" value="0.19746376811594202" />
       </map>
     </option>
   </component>

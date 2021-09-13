@@ -28,7 +28,7 @@ public class Activity2InternalStorage extends AppCompatActivity implements View.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_activity2_internal_storage);
+        setContentView(R.layout.activity2_internal_storage);
         btnReadData = (Button) findViewById(R.id.btn_read_data);
         btnSaveData = (Button) findViewById(R.id.btn_save_data);
         tvData = (TextView) findViewById(R.id.tv_data);

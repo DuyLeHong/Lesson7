@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lesson7">
         <activity
-            android:name=".Activity2InternalStorage"
+            android:name=".sqlitedemo.Activity3SQLite"
             android:exported="true" >
 
             <intent-filter>
@@ -22,10 +22,14 @@
         </activity>
 
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity2InternalStorage"
             android:exported="true">
 
         </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
