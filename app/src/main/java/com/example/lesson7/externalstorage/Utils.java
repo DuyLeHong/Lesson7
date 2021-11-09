@@ -40,8 +40,10 @@ public final class Utils {
         try {
             String path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).toString();
             OutputStream fOut = null;
-            int counter = 0;
-            File file = new File(path, "AnhNew" + counter + ".jpg"); // the File to save , append increasing numeric counter to prevent files from getting overwritten.
+
+            long timeline = System.currentTimeMillis(); // lay ra thoi gian ms tu 1970
+
+            File file = new File(path, "AnhNew" + timeline + ".jpg"); // the File to save , append increasing numeric counter to prevent files from getting overwritten.
             fOut = new FileOutputStream(file);
 
             bitmap.compress(Bitmap.CompressFormat.JPEG, 85, fOut); // saving the Bitmap to a file compressed as a JPEG with 85% compression rate
